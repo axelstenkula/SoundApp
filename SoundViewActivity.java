@@ -73,7 +73,7 @@ public class SoundViewActivity extends AppCompatActivity {
         int uri = intent.getIntExtra(MainActivity.SOUND_URI, 0);
 
         String path = "res/raw/" + clip;
-        Snackbar.make(view, "Playing..." + path, Snackbar.LENGTH_LONG)
+        Snackbar.make(view, "Spelar " + path + "...", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show();
 
 
